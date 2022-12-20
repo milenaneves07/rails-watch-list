@@ -1,0 +1,8 @@
+<div>
+  <h3>Crie uma nova lista</h3>
+
+  <%= simple_form_for @list do |f| %>
+  <%= f.input :name, placeholder: 'Comedy' %>
+  <%= f.submit class: 'btn btn-primary' %>
+  <% end %>
+</div>
